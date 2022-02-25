@@ -1,5 +1,9 @@
 <template>
-	<img src="../assets/empanada-hero.jpeg" alt="Empanadas" />
+	<img
+		src="../assets/empanada-hero.jpeg"
+		alt="Empanadas"
+		class="imagen-hero"
+	/>
 </template>
 
 <script>
@@ -8,4 +12,8 @@
 	};
 </script>
 
-<style scoped></style>
+<style scoped>
+	.imagen-hero {
+		width: 100%;
+	}
+</style>

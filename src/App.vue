@@ -1,8 +1,10 @@
 <template>
-	<Header />
-	<Hero />
-	<router-view />
-	<Footer />
+	<div class="container">
+		<Header />
+		<Hero />
+		<router-view />
+		<Footer />
+	</div>
 </template>
 
 <script>
@@ -20,24 +22,59 @@
 </script>
 
 <style>
-	#app {
+	html {
+		font-size: 100%;
+		box-sizing: border-box;
+	}
+
+	*,
+	*::before,
+	*::after {
+		box-sizing: inherit;
+	}
+
+	body {
+		margin: 0;
+		padding: 0;
+		line-height: 1.3;
 		font-family: Avenir, Helvetica, Arial, sans-serif;
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-		text-align: center;
-		color: #2c3e50;
+		font-size: 1rem;
+		color: black;
+		background-color: white;
 	}
 
-	#nav {
-		padding: 30px;
+	h1,
+	h2,
+	h3 {
+		margin: 0px;
 	}
 
-	#nav a {
+	a,
+	a:visited {
+		text-decoration: none;
+		color: black;
 		font-weight: bold;
-		color: #2c3e50;
 	}
 
-	#nav a.router-link-exact-active {
-		color: #42b983;
+	a:hover {
+		color: gray;
+	}
+
+	button {
+		color: white;
+		background-color: black;
+		font-size: 1rem;
+		border: none;
+		border-radius: 5px;
+		padding: 0.5rem 1rem;
+		cursor: pointer;
+	}
+
+	button:hover {
+		background-color: gray;
+	}
+
+	.container {
+		margin: 2rem;
 	}
 </style>
