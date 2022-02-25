@@ -21,6 +21,9 @@
 					<router-link to="/">Home</router-link>
 					<router-link to="/empresa">Bendita Empresa</router-link>
 					<router-link to="/productos">Bendita Empanada</router-link>
+					<router-link :to="{ path: '/', hash: '#contacto' }">
+						Contacto
+					</router-link>
 				</div>
 			</nav>
 		</div>
