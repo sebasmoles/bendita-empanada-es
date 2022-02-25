@@ -1,10 +1,10 @@
 <template>
-	<div class="container">
-		<Header />
-		<Hero />
-		<router-view />
-		<Footer />
-	</div>
+	<Header />
+
+	<Hero />
+	<router-view />
+
+	<Footer />
 </template>
 
 <script>
@@ -72,9 +72,5 @@
 
 	button:hover {
 		background-color: gray;
-	}
-
-	.container {
-		margin: 2rem;
 	}
 </style>
