@@ -69,8 +69,7 @@
 		background-color: black;
 		font-size: 1rem;
 		border: none;
-		border-radius: 5px;
-		padding: 0.5rem 1rem;
+		padding: 0.5rem 2rem;
 		cursor: pointer;
 	}
 
