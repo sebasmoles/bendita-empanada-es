@@ -1,10 +1,30 @@
 <template>
-	<h2>Texto de bienvenida</h2>
-	<img src="" alt="" />
-	<div>
-		<p>Paragrafo</p>
-		<button>Boton</button>
-	</div>
+	<section class="bienvenida">
+		<h2 class="bienvenida-titulo">Texto de bienvenida</h2>
+		<div class="bienvenida-elementos">
+			<img src="../../assets/empanada-hero.jpeg" alt="Foto bienvenida" />
+			<div>
+				<p class="bienvenida-texto">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Cras nisl nisl, commodo at auctor quis, aliquet sed felis.
+					Praesent neque nibh, efficitur placerat semper non, feugiat
+					porttitor augue. Sed interdum elit nec nulla pulvinar, at
+					fermentum dolor tempus. Donec auctor urna ac sem faucibus,
+					ac pulvinar elit convallis. Nam egestas convallis metus nec
+					maximus. Nulla eget malesuada urna. Phasellus condimentum,
+					dolor at dapibus pretium, justo massa sollicitudin leo, in
+					dictum ex mauris nec libero. Nam dictum turpis orci, et
+					placerat neque interdum porta. Integer egestas, orci
+					molestie luctus rhoncus, sem dui ullamcorper ligula, sed
+					gravida ex urna a ligula. Nam vel dapibus dui. Cras sem
+					justo, euismod ut tristique a, accumsan vestibulum magna.
+				</p>
+				<div class="bienvenida-boton-container">
+					<button>Ver más</button>
+				</div>
+			</div>
+		</div>
+	</section>
 </template>
 
 <script>
@@ -13,4 +33,36 @@
 	};
 </script>
 
-<style></style>
+<style scoped>
+	.bienvenida {
+		text-align: center;
+		padding: 1rem;
+	}
+	.bienvenida-titulo {
+		margin-bottom: 1rem;
+	}
+	.bienvenida-elementos {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		max-width: 100%;
+		overflow: hidden;
+	}
+	.bienvenida-elementos img {
+		max-width: 40%;
+		min-height: 16rem;
+		object-fit: cover;
+		flex: 1;
+	}
+	.bienvenida-elementos div {
+		margin-left: 2rem;
+		flex: 1;
+	}
+	.bienvenida-texto {
+		text-align: left;
+		margin-top: 0;
+	}
+	.bienvenida-boton-container {
+		text-align: right;
+	}
+</style>
