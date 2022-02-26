@@ -65,6 +65,7 @@
 		display: flex;
 		flex-direction: column;
 		margin-right: 2rem;
+		font-weight: bold;
 	}
 	.logo:hover {
 		color: gray;
