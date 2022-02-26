@@ -49,6 +49,10 @@
 		margin: 0px;
 	}
 
+	h2 {
+		font-size: 2rem;
+	}
+
 	a,
 	a:visited {
 		text-decoration: none;
