@@ -57,7 +57,7 @@
 <style scoped>
 	.principales {
 		text-align: center;
-		padding: 4rem 1rem;
+		padding: 4rem 2rem;
 		background-color: #282828;
 		color: white;
 	}
