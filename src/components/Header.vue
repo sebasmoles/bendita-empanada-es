@@ -54,7 +54,7 @@
 		align-items: flex-start;
 		color: white;
 		background-color: black;
-		padding: 1rem;
+		padding: 1rem 2rem;
 		position: sticky;
 		top: 0;
 	}
@@ -81,12 +81,12 @@
 		cursor: pointer;
 	}
 	.dropdown-links {
-		margin-top: 1rem;
-		padding: 1rem;
+		margin-top: 1.8rem;
+		padding: 1rem 2rem;
 		position: absolute;
 		right: 0%;
 		background-color: white;
-		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.6);
 		z-index: 1;
 	}
 	.dropdown-links a:not(:last-child) {
