@@ -20,7 +20,9 @@
 					justo, euismod ut tristique a, accumsan vestibulum magna.
 				</p>
 				<div class="bienvenida-boton-container">
-					<button>Ver más</button>
+					<button @click="this.$router.push('/empresa')">
+						Ver más
+					</button>
 				</div>
 			</div>
 		</div>
@@ -36,10 +38,10 @@
 <style scoped>
 	.bienvenida {
 		text-align: center;
-		padding: 1rem;
+		padding: 4rem 2rem;
 	}
 	.bienvenida-titulo {
-		margin-bottom: 1rem;
+		margin-bottom: 2rem;
 	}
 	.bienvenida-elementos {
 		display: flex;
@@ -50,11 +52,10 @@
 	}
 	.bienvenida-elementos img {
 		max-width: 40%;
-		min-height: 16rem;
 		object-fit: cover;
 		flex: 1;
 	}
-	.bienvenida-elementos div {
+	.bienvenida-elementos > div {
 		margin-left: 2rem;
 		flex: 1;
 	}
