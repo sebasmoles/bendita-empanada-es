@@ -36,9 +36,9 @@
 	body {
 		margin: 0;
 		padding: 0;
-		line-height: 1.3;
+		line-height: 1.6;
 		font-family: Avenir, Helvetica, Arial, sans-serif;
-		font-size: 1rem;
+		font-size: 1.125rem;
 		color: black;
 		background-color: white;
 	}
@@ -67,7 +67,7 @@
 	button {
 		color: white;
 		background-color: black;
-		font-size: 1rem;
+		font-size: 1.125rem;
 		border: none;
 		padding: 0.5rem 2rem;
 		cursor: pointer;
