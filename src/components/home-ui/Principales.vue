@@ -4,7 +4,7 @@
 		<div class="principales-elementos">
 			<div>
 				<img
-					src="../../assets/empanada-hero.jpeg"
+					src="../../assets/empanada-principales.jpeg"
 					alt="Imagen producto"
 					class="principales-imagen"
 				/>
@@ -16,7 +16,7 @@
 			</div>
 			<div>
 				<img
-					src="../../assets/empanada-hero.jpeg"
+					src="../../assets/empanada-principales.jpeg"
 					alt="Imagen producto"
 					class="principales-imagen"
 				/>
@@ -28,7 +28,7 @@
 			</div>
 			<div>
 				<img
-					src="../../assets/empanada-hero.jpeg"
+					src="../../assets/empanada-principales.jpeg"
 					alt="Imagen producto"
 					class="principales-imagen"
 				/>

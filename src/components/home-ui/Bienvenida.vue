@@ -2,7 +2,10 @@
 	<section class="bienvenida">
 		<h2 class="bienvenida-titulo">Texto de bienvenida</h2>
 		<div class="bienvenida-elementos">
-			<img src="../../assets/empanada-hero.jpeg" alt="Foto bienvenida" />
+			<img
+				src="../../assets/empanada-bienvenida.jpeg"
+				alt="Foto bienvenida"
+			/>
 			<div>
 				<p class="bienvenida-texto">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit.

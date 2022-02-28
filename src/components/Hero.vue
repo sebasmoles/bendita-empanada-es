@@ -10,14 +10,14 @@
 			</swiper-slide>
 			<swiper-slide>
 				<img
-					src="../assets/empanada-hero.jpeg"
+					src="../assets/empanada-hero-dos.jpeg"
 					alt="Empanadas"
 					class="imagen-hero"
 				/>
 			</swiper-slide>
 			<swiper-slide>
 				<img
-					src="../assets/empanada-hero.jpeg"
+					src="../assets/empanada-hero-tres.jpeg"
 					alt="Empanadas"
 					class="imagen-hero"
 				/>

@@ -3,32 +3,32 @@
 		<h2 class="productos-titulo">Productos</h2>
 		<div class="productos-contenido">
 			<img
-				src="../../assets/empanada-hero.jpeg"
+				src="../../assets/producto.jpeg"
 				alt="Imagen de producto"
 				class="productos-imagen"
 			/>
 			<img
-				src="../../assets/empanada-hero.jpeg"
+				src="../../assets/producto.jpeg"
 				alt="Imagen de producto"
 				class="productos-imagen"
 			/>
 			<img
-				src="../../assets/empanada-hero.jpeg"
+				src="../../assets/producto.jpeg"
 				alt="Imagen de producto"
 				class="productos-imagen"
 			/>
 			<img
-				src="../../assets/empanada-hero.jpeg"
+				src="../../assets/producto.jpeg"
 				alt="Imagen de producto"
 				class="productos-imagen"
 			/>
 			<img
-				src="../../assets/empanada-hero.jpeg"
+				src="../../assets/producto.jpeg"
 				alt="Imagen de producto"
 				class="productos-imagen"
 			/>
 			<img
-				src="../../assets/empanada-hero.jpeg"
+				src="../../assets/producto.jpeg"
 				alt="Imagen de producto"
 				class="productos-imagen"
 			/>

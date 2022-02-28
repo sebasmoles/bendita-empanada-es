@@ -4,7 +4,7 @@
 		<div class="empresa-atributos">
 			<div>
 				<img
-					src="../../assets/empanada-hero.jpeg"
+					src="../../assets/empresa.jpeg"
 					alt="Atributo de la empresa"
 					class="empresa-imagen"
 				/>
@@ -22,7 +22,7 @@
 			</div>
 			<div>
 				<img
-					src="../../assets/empanada-hero.jpeg"
+					src="../../assets/empresa.jpeg"
 					alt="Atributo de la empresa"
 					class="empresa-imagen"
 				/>
@@ -40,7 +40,7 @@
 			</div>
 			<div>
 				<img
-					src="../../assets/empanada-hero.jpeg"
+					src="../../assets/empresa.jpeg"
 					alt="Atributo de la empresa"
 					class="empresa-imagen"
 				/>
