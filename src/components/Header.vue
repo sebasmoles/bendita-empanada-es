@@ -1,10 +1,10 @@
 <template>
 	<header>
-		<h1 class="logo" @click="this.$router.push('/')">Logo</h1>
+		<h1 class="logo" @click="this.$router.push('/')">Bendita Empanada</h1>
 		<div class="header-50">
 			<div class="header-info">
-				<span>Calle 21 # 17-50 Bucaramanga, Colombia</span>
-				<span>Tel: (+57) 319-552-0759</span>
+				<span>Calle 21 # 17-50, Bucaramanga, Colombia</span>
+				<span>Teléfono: (+57) 319-552-0759</span>
 			</div>
 			<nav>
 				<i
@@ -18,10 +18,25 @@
 					@click="toggleBurgerMenu"
 				></i>
 				<div class="dropdown-links" v-show="isHidden">
-					<router-link to="/">Home</router-link>
-					<router-link to="/empresa">Bendita Empresa</router-link>
-					<router-link to="/productos">Bendita Empanada</router-link>
-					<router-link :to="{ path: '/', hash: '#contacto' }">
+					<router-link to="/" @click="() => (isHidden = false)">
+						Home
+					</router-link>
+					<router-link
+						to="/empresa"
+						@click="() => (isHidden = false)"
+					>
+						Bendita Empresa
+					</router-link>
+					<router-link
+						to="/productos"
+						@click="() => (isHidden = false)"
+					>
+						Bendita Empanada
+					</router-link>
+					<router-link
+						:to="{ path: '/', hash: '#contacto' }"
+						@click="() => (isHidden = false)"
+					>
 						Contacto
 					</router-link>
 				</div>
@@ -57,6 +72,7 @@
 		padding: 1rem 2rem;
 		position: sticky;
 		top: 0;
+		z-index: 2;
 	}
 	.header-50 {
 		display: flex;
@@ -74,7 +90,6 @@
 	.fa-solid {
 		color: white;
 		font-size: 2.5rem;
-		transition: 0.3s;
 	}
 	.fa-solid:hover {
 		color: gray;

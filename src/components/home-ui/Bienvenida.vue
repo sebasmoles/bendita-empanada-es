@@ -62,6 +62,7 @@
 	.bienvenida-texto {
 		text-align: left;
 		margin-top: 0;
+		margin-bottom: 2rem;
 	}
 	.bienvenida-boton-container {
 		text-align: right;
