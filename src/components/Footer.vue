@@ -20,7 +20,7 @@
 		</div>
 		<div class="flex-50">
 			<h3 class="newsletter">Newsletter</h3>
-			<form class="newsletter-form">
+			<form @submit="onSubmit" class="newsletter-form">
 				<input
 					type="email"
 					class="newsletter-input"
@@ -53,6 +53,13 @@
 		components: {
 			GoogleMap,
 			Marker,
+		},
+		methods: {
+			onSubmit() {
+				alert(
+					"Te has registrado en nuestro newsletter, por favor revisa tu correo electrónico."
+				);
+			},
 		},
 	};
 </script>

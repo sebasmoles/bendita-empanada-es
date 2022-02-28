@@ -17,13 +17,13 @@
 				dapibus dui. Cras sem justo, euismod ut tristique a, accumsan
 				vestibulum magna.
 			</p>
-			<form class="contacto-formulario">
+			<form @submit="onSubmit" class="contacto-formulario">
 				<div class="contacto-formulario-grupo">
 					<input type="text" placeholder="Nombre completo" required />
 				</div>
 				<div class="contacto-formulario-grupo">
 					<input
-						type="text"
+						type="email"
 						placeholder="Correo electrónico"
 						required
 					/>
@@ -36,7 +36,11 @@
 					/>
 				</div>
 				<div class="contacto-formulario-grupo">
-					<textarea placeholder="¿Cómo podemos ayudarte?" required />
+					<textarea
+						placeholder="¿Cómo podemos ayudarte?"
+						rows="2"
+						required
+					/>
 				</div>
 				<button type="submit">Enviar</button>
 			</form>
@@ -47,6 +51,13 @@
 <script>
 	export default {
 		name: "Contacto",
+		methods: {
+			onSubmit() {
+				alert(
+					"Ya tenemos en nuestro sistemas tus datos, un asesor se comunicará contigo cuanto antes."
+				);
+			},
+		},
 	};
 </script>
 
@@ -85,10 +96,17 @@
 		border: 1px solid #ccc;
 		font-family: Avenir, Helvetica, Arial, sans-serif;
 	}
+	.contacto-formulario-grupo input:focus {
+		background-color: lightyellow;
+	}
 	.contacto-formulario-grupo textarea {
 		width: 100%;
 		padding: 1rem;
 		border: 1px solid #ccc;
 		font-family: Avenir, Helvetica, Arial, sans-serif;
+		resize: none;
+	}
+	.contacto-formulario-grupo textarea:focus {
+		background-color: lightyellow;
 	}
 </style>
