@@ -53,6 +53,8 @@
 		width: 100%;
 		height: 50vh;
 		object-fit: cover;
+		-webkit-filter: brightness(20%);
+		filter: brightness(60%);
 	}
 	.swiper-pagination-bullet {
 		width: 20px;
