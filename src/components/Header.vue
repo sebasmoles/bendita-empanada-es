@@ -138,5 +138,25 @@
 		.fa-solid {
 			font-size: 2rem;
 		}
+	}
+
+	@media only screen and (max-width: 640px) {
+		.header-info {
+			display: none;
+		}
+		.dropdown-links {
+			width: 100%;
+			height: 100vh;
+			text-align: center;
+			overflow: scroll;
+		}
+		.dropdown-links a:not(:last-child) {
+			margin-right: 0;
+		}
+		.dropdown-links a {
+			display: block;
+			font-size: 2rem;
+			margin-top: 4rem;
+		}
 	} ;
 </style>

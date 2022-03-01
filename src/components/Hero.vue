@@ -68,4 +68,11 @@
 		opacity: 1;
 		background: white;
 	}
+
+	@media only screen and (max-width: 640px) {
+		.swiper-pagination-bullet {
+			width: 16px;
+			height: 16px;
+		}
+	} ;
 </style>

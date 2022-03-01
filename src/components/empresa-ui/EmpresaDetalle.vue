@@ -92,5 +92,12 @@
 			width: 100%;
 			padding: 0 4rem 2rem 4rem;
 		}
-	} ;
+	}
+
+	@media only screen and (max-width: 640px) {
+		.empresa-atributos div {
+			padding: 0;
+			margin-bottom: 3rem;
+		}
+	}
 </style>

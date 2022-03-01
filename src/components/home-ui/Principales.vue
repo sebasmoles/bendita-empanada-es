@@ -109,5 +109,12 @@
 			height: 16rem;
 			object-fit: cover;
 		}
-	} ;
+	}
+
+	@media only screen and (max-width: 640px) {
+		.principales-elementos div {
+			padding: 0;
+			margin-bottom: 3rem;
+		}
+	}
 </style>

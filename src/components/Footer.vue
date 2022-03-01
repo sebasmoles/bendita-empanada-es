@@ -39,7 +39,7 @@
 					<i class="fa-brands fa-twitter-square"></i>
 				</a>
 				<a href="https://www.instagram.com/sebasmoles/" target="_blank">
-					<i class="fa-brands fa-instagram"></i>
+					<i class="fa-brands fa-instagram" id="sm-last-child"></i>
 				</a>
 			</div>
 		</div>
@@ -143,6 +143,35 @@
 		.footer-contacto {
 			margin: 0;
 			text-align: center;
+		}
+	}
+
+	@media only screen and (max-width: 640px) {
+		.newsletter {
+			text-align: center;
+		}
+		.newsletter-form {
+			display: block;
+		}
+		.newsletter-input {
+			margin: 0 0 1rem 0;
+		}
+		.newsletter-button {
+			width: 100%;
+		}
+		.social-media {
+			display: flex;
+			justify-content: center;
+		}
+		.social-media #sm-last-child {
+			margin: 0;
+		}
+		.mapa-elementos {
+			display: block;
+		}
+		.mapa {
+			height: 10rem;
+			margin-bottom: 2rem;
 		}
 	} ;
 </style>
