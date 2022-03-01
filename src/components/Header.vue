@@ -66,7 +66,7 @@
 		width: 100%;
 		display: flex;
 		justify-content: space-between;
-		align-items: flex-start;
+		align-items: center;
 		color: white;
 		background-color: black;
 		padding: 1rem 2rem;
@@ -76,6 +76,7 @@
 	}
 	.header-50 {
 		display: flex;
+		align-items: center;
 	}
 	.header-info {
 		display: flex;
@@ -96,7 +97,7 @@
 		cursor: pointer;
 	}
 	.dropdown-links {
-		margin-top: 1.8rem;
+		margin-top: 1.4rem;
 		padding: 1rem 2rem;
 		position: absolute;
 		right: 0%;
@@ -111,19 +112,31 @@
 	/* Media queries and responsive design */
 	@media only screen and (max-width: 1024px) {
 		.dropdown-links {
-			margin-top: 1.4rem;
-		}
-	}
-
-	@media only screen and (max-width: 768px) {
-		header {
-			align-items: center;
+			margin-top: 1.2rem;
 		}
 		.header-info span {
 			font-size: 0.8rem;
 		}
+	}
+
+	@media only screen and (max-width: 768px) {
 		.dropdown-links {
 			margin-top: 1.2rem;
+		}
+	}
+
+	@media only screen and (max-width: 767px) {
+		.logo {
+			font-size: 1.5rem;
+		}
+		.header-info span {
+			font-size: 0.7rem;
+		}
+		.dropdown-links {
+			margin-top: 1rem;
+		}
+		.fa-solid {
+			font-size: 2rem;
 		}
 	} ;
 </style>

@@ -72,7 +72,7 @@
 		margin-right: 6rem;
 	}
 	.principales-imagen {
-		max-width: 100%;
+		width: 100%;
 	}
 	.principales-texto {
 		text-align: left;
@@ -89,6 +89,25 @@
 	@media only screen and (max-width: 1024px) {
 		.principales-elementos div:not(:last-child) {
 			margin-right: 4rem;
+		}
+	}
+
+	@media only screen and (max-width: 767px) {
+		.principales-elementos {
+			display: block;
+			margin: 0;
+		}
+		.principales-elementos div:not(:last-child) {
+			margin-right: 0;
+		}
+		/* Principales elementos cardboxes */
+		.principales-elementos div {
+			width: 100%;
+			padding: 0 4rem 2rem 4rem;
+		}
+		.principales-imagen {
+			height: 16rem;
+			object-fit: cover;
 		}
 	} ;
 </style>

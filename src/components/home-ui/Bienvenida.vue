@@ -82,5 +82,8 @@
 		.bienvenida-elementos > div {
 			margin-left: 0;
 		}
+		.bienvenida-boton-container {
+			text-align: center;
+		}
 	} ;
 </style>

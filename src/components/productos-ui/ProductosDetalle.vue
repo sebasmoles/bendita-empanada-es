@@ -66,5 +66,10 @@
 		.productos-imagen {
 			max-width: 48%;
 		}
+	}
+	@media only screen and (max-width: 767px) {
+		.productos-imagen {
+			max-width: 100%;
+		}
 	} ;
 </style>

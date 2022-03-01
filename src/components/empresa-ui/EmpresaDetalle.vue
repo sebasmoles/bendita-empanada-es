@@ -79,5 +79,18 @@
 		.empresa-atributos div:not(:last-child) {
 			margin-right: 2rem;
 		}
+	}
+
+	@media only screen and (max-width: 767px) {
+		.empresa-atributos {
+			display: block;
+		}
+		.empresa-atributos div:not(:last-child) {
+			margin-right: 0;
+		}
+		.empresa-atributos div {
+			width: 100%;
+			padding: 0 4rem 2rem 4rem;
+		}
 	} ;
 </style>
