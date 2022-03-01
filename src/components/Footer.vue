@@ -80,16 +80,16 @@
 		display: flex;
 	}
 	.mapa-contacto {
-		margin-left: 2rem;
+		margin: 0 1rem;
 	}
 	.mapa-contacto span {
 		display: block;
 		margin-bottom: 1rem;
 	}
 	.mapa-contacto span i {
+		display: block;
+		margin-bottom: 0.6rem;
 		font-size: 2rem;
-		margin-right: 1rem;
-		vertical-align: bottom;
 	}
 	.newsletter {
 		margin-bottom: 1rem;

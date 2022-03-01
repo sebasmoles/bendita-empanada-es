@@ -66,6 +66,7 @@
 
 	button {
 		color: white;
+		height: 42px;
 		background-color: black;
 		font-size: 1.125rem;
 		border: none;
@@ -76,4 +77,14 @@
 	button:hover {
 		background-color: gray;
 	}
+
+	/* Media queries and responsive design */
+	@media only screen and (max-width: 1024px) {
+		body {
+			font-size: 1rem;
+		}
+		button {
+			font-size: 1rem;
+		}
+	} ;
 </style>

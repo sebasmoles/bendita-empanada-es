@@ -48,19 +48,17 @@
 	}
 	.bienvenida-elementos {
 		display: flex;
-		align-items: flex-start;
 		justify-content: space-between;
 		max-width: 100%;
 		overflow: hidden;
 	}
 	.bienvenida-elementos img {
 		max-width: 40%;
+		min-height: 100%;
 		object-fit: cover;
-		flex: 1;
 	}
 	.bienvenida-elementos > div {
 		margin-left: 2rem;
-		flex: 1;
 	}
 	.bienvenida-texto {
 		text-align: left;

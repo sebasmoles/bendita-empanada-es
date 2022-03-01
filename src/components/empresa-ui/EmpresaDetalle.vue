@@ -13,11 +13,7 @@
 					Cras nisl nisl, commodo at auctor quis, aliquet sed felis.
 					Praesent neque nibh, efficitur placerat semper non, feugiat
 					porttitor augue. Sed interdum elit nec nulla pulvinar, at
-					fermentum dolor tempus. Donec auctor urna ac sem faucibus,
-					ac pulvinar elit convallis. Nam egestas convallis metus nec
-					maximus. Nulla eget malesuada urna. Phasellus condimentum,
-					dolor at dapibus pretium, justo massa sollicitudin leo, in
-					dictum ex mauris nec libero.
+					fermentum dolor tempus.
 				</p>
 			</div>
 			<div>
@@ -31,11 +27,7 @@
 					Cras nisl nisl, commodo at auctor quis, aliquet sed felis.
 					Praesent neque nibh, efficitur placerat semper non, feugiat
 					porttitor augue. Sed interdum elit nec nulla pulvinar, at
-					fermentum dolor tempus. Donec auctor urna ac sem faucibus,
-					ac pulvinar elit convallis. Nam egestas convallis metus nec
-					maximus. Nulla eget malesuada urna. Phasellus condimentum,
-					dolor at dapibus pretium, justo massa sollicitudin leo, in
-					dictum ex mauris nec libero.
+					fermentum dolor tempus.
 				</p>
 			</div>
 			<div>
@@ -49,11 +41,7 @@
 					Cras nisl nisl, commodo at auctor quis, aliquet sed felis.
 					Praesent neque nibh, efficitur placerat semper non, feugiat
 					porttitor augue. Sed interdum elit nec nulla pulvinar, at
-					fermentum dolor tempus. Donec auctor urna ac sem faucibus,
-					ac pulvinar elit convallis. Nam egestas convallis metus nec
-					maximus. Nulla eget malesuada urna. Phasellus condimentum,
-					dolor at dapibus pretium, justo massa sollicitudin leo, in
-					dictum ex mauris nec libero.
+					fermentum dolor tempus.
 				</p>
 			</div>
 		</div>
@@ -86,4 +74,10 @@
 	.empresa-texto {
 		text-align: left;
 	}
+	/* Media queries and responsive design */
+	@media only screen and (max-width: 1024px) {
+		.empresa-atributos div:not(:last-child) {
+			margin-right: 2rem;
+		}
+	} ;
 </style>

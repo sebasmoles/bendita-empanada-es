@@ -107,4 +107,11 @@
 	.dropdown-links a:not(:last-child) {
 		margin-right: 2rem;
 	}
+
+	/* Media queries and responsive design */
+	@media only screen and (max-width: 1024px) {
+		.dropdown-links {
+			margin-top: 1.4rem;
+		}
+	} ;
 </style>

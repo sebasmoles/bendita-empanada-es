@@ -14,8 +14,7 @@
 				Nam dictum turpis orci, et placerat neque interdum porta.
 				Integer egestas, orci molestie luctus rhoncus, sem dui
 				ullamcorper ligula, sed gravida ex urna a ligula. Nam vel
-				dapibus dui. Cras sem justo, euismod ut tristique a, accumsan
-				vestibulum magna.
+				dapibus dui.
 			</p>
 			<form @submit="onSubmit" class="contacto-formulario">
 				<div class="contacto-formulario-grupo">
@@ -71,7 +70,6 @@
 	}
 	.contacto-elementos {
 		display: flex;
-		align-items: flex-start;
 		max-width: 100%;
 	}
 	.contacto-texto {
@@ -81,13 +79,15 @@
 	}
 	.contacto-formulario {
 		flex: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
 	}
 	.contacto-formulario button {
 		width: 100%;
 	}
 	.contacto-formulario-grupo {
-		min-height: 100%;
-		margin-bottom: 1rem;
+		margin-bottom: 0.4rem;
 	}
 	.contacto-formulario-grupo input {
 		width: 100%;
