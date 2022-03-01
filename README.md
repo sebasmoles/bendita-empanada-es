@@ -1,19 +1,22 @@
 # Bendita Empanada Web
 
-## Project setup
+Proyecto web para la empresa "Bendita Empanada".
 
-```
+🛠 Construido con Vue.js.
+
+## Setup del proyecto
+
+```bash
+# Instalar dependencias en directorio root
 npm install
 ```
 
-### Compiles and hot-reloads for development
-
-```
+```bash
+# Correr el servidor local de desarrollo (http://localhost:8080)
 npm run serve
 ```
 
-### Compiles and minifies for production
-
-```
+```bash
+# Compilar y minificar para producción
 npm run build
 ```
