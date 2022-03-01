@@ -77,14 +77,6 @@
 	.principales-texto {
 		text-align: left;
 	}
-	.principales-boton {
-		background: white;
-		color: black;
-	}
-	.principales-boton:hover {
-		background: gray;
-		color: white;
-	}
 	/* Media queries and responsive design */
 	@media only screen and (max-width: 1024px) {
 		.principales-elementos div:not(:last-child) {
