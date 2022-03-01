@@ -113,5 +113,17 @@
 		.dropdown-links {
 			margin-top: 1.4rem;
 		}
+	}
+
+	@media only screen and (max-width: 768px) {
+		header {
+			align-items: center;
+		}
+		.header-info span {
+			font-size: 0.8rem;
+		}
+		.dropdown-links {
+			margin-top: 1.2rem;
+		}
 	} ;
 </style>

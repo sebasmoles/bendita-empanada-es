@@ -60,4 +60,11 @@
 		margin-bottom: 2rem;
 		object-fit: cover;
 	}
+
+	/* Media queries and responsive design */
+	@media only screen and (max-width: 768px) {
+		.productos-imagen {
+			max-width: 48%;
+		}
+	} ;
 </style>

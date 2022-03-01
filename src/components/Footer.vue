@@ -4,13 +4,13 @@
 			<GoogleMap
 				:center="{ lat: 40.689247, lng: -74.044502 }"
 				:zoom="10"
-				style="width: 50%; height: 100%"
+				class="mapa"
 			>
 				<Marker
 					:options="{ position: { lat: 40.689247, lng: -74.044502 } }"
 				/>
 			</GoogleMap>
-			<div class="mapa-contacto">
+			<div class="footer-contacto">
 				<span><i class="fa-solid fa-phone"></i>(+57) 319-552-0759</span>
 				<span>
 					<i class="fa-solid fa-envelope"></i>
@@ -79,14 +79,20 @@
 	.mapa-elementos {
 		display: flex;
 	}
-	.mapa-contacto {
-		margin: 0 1rem;
+	.mapa {
+		max-width: 100%;
+		max-height: 100%;
+		flex: 1;
 	}
-	.mapa-contacto span {
+	.footer-contacto {
+		margin: 0 1rem;
+		flex: 1;
+	}
+	.footer-contacto span {
 		display: block;
 		margin-bottom: 1rem;
 	}
-	.mapa-contacto span i {
+	.footer-contacto span i {
 		display: block;
 		margin-bottom: 0.6rem;
 		font-size: 2rem;
@@ -125,4 +131,18 @@
 	.social-media .fa-brands:hover {
 		color: gray;
 	}
+
+	/* Media queries and responsive design */
+	@media only screen and (max-width: 768px) {
+		.footer {
+			flex-direction: column-reverse;
+		}
+		.mapa-elementos {
+			margin-top: 2rem;
+		}
+		.footer-contacto {
+			margin: 0;
+			text-align: center;
+		}
+	} ;
 </style>

@@ -68,4 +68,19 @@
 	.bienvenida-boton-container {
 		text-align: right;
 	}
+
+	/* Media queries and responsive design */
+	@media only screen and (max-width: 768px) {
+		.bienvenida-elementos {
+			flex-direction: column;
+		}
+		.bienvenida-elementos img {
+			max-width: 100%;
+			height: 20rem;
+			margin-bottom: 2rem;
+		}
+		.bienvenida-elementos > div {
+			margin-left: 0;
+		}
+	} ;
 </style>

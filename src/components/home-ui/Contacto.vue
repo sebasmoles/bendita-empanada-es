@@ -109,4 +109,17 @@
 	.contacto-formulario-grupo textarea:focus {
 		background-color: lightyellow;
 	}
+
+	/* Media queries and responsive design */
+	@media only screen and (max-width: 768px) {
+		.contacto-elementos {
+			flex-direction: column-reverse;
+		}
+		.contacto-formulario {
+			margin-bottom: 2rem;
+		}
+		.contacto-formulario-grupo {
+			margin-bottom: 2rem;
+		}
+	} ;
 </style>

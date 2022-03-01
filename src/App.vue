@@ -86,5 +86,11 @@
 		button {
 			font-size: 1rem;
 		}
+	}
+
+	@media only screen and (max-width: 768px) {
+		h2 {
+			font-size: 1.8rem;
+		}
 	} ;
 </style>
