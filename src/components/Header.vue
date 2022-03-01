@@ -158,5 +158,17 @@
 			font-size: 2rem;
 			margin-top: 4rem;
 		}
-	} ;
+	}
+
+	@media only screen and (max-width: 424px) {
+		.logo {
+			font-size: 1.2rem;
+		}
+		.fa-solid {
+			font-size: 1.6rem;
+		}
+		.dropdown-links a {
+			font-size: 1.6rem;
+		}
+	}
 </style>

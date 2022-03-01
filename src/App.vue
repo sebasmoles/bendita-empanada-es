@@ -92,5 +92,11 @@
 		h2 {
 			font-size: 1.8rem;
 		}
+	}
+
+	@media only screen and (max-width: 424px) {
+		h2 {
+			font-size: 1.4rem;
+		}
 	} ;
 </style>
