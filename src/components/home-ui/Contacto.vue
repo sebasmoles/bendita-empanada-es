@@ -121,5 +121,8 @@
 		.contacto-formulario-grupo {
 			margin-bottom: 2rem;
 		}
+		.contacto-texto {
+			margin: 0;
+		}
 	} ;
 </style>
