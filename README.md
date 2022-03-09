@@ -1,22 +1,31 @@
-# Bendita Empanada Web
+# Bendita Empanada
 
-Proyecto web para la empresa "Bendita Empanada".
+Web page for the "Bendita Empanada" coffee shop.
 
-🛠 Construido con Vue.js.
+🛠 It was built with [Vue CLI v4](https://cli.vuejs.org/).
+🤟 Project was built in Spanish (commits, variables, etc).
 
-## Setup del proyecto
+## Project setup
 
 ```bash
-# Instalar dependencias en directorio root
+# Install dependencies in root directory
 npm install
 ```
 
 ```bash
-# Correr el servidor local de desarrollo (http://localhost:8080)
+# Run vue local dev server (http://localhost:8080)
 npm run serve
 ```
 
 ```bash
-# Compilar y minificar para producción
+# Compiles and minifies for production
 npm run build
 ```
+
+## Version
+
+1.0.0
+
+## License
+
+This project is licensed under the ISC License
