@@ -10,7 +10,7 @@ describe("Header.vue", () => {
 
 		expect(burgerMenuOptions).not.toBeVisible();
 	});
-	test("user can toggle burger menu options visibility by clicking", async () => {
+	test("user can toggle burger menu options visibility", async () => {
 		const { getByTestId } = render(Header);
 
 		const burgerMenu = getByTestId("burger-menu");
