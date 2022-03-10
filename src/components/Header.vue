@@ -11,13 +11,19 @@
 					class="fa-solid fa-bars"
 					v-show="!isHidden"
 					@click="toggleBurgerMenu"
+					data-testid="burger-menu"
 				></i>
 				<i
 					class="fa-solid fa-x"
 					v-show="isHidden"
 					@click="toggleBurgerMenu"
+					data-testid="burger-menu-close"
 				></i>
-				<div class="dropdown-links" v-show="isHidden">
+				<div
+					class="dropdown-links"
+					v-show="isHidden"
+					data-testid="burger-menu-options"
+				>
 					<router-link to="/" @click="() => (isHidden = false)">
 						Home
 					</router-link>
