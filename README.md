@@ -2,7 +2,8 @@
 
 Web page for the "Bendita Empanada" coffee shop.
 
-🛠 It was built with [Vue CLI v4](https://cli.vuejs.org/).
+🛠 It was built with [Vue CLI v4](https://cli.vuejs.org/), [Swiper.js](https://swiperjs.com/), [vue3-google-map](https://www.npmjs.com/package/vue3-google-map).
+
 🤟 Project was built in Spanish (commits, variables, etc).
 
 ## Project setup
