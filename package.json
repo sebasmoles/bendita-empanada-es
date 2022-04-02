@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "author": "@sebasmoles",
-	"license": "ISC",
+  "license": "ISC",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -16,7 +16,8 @@
     "swiper": "^7.3.1",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
-    "vue3-google-map": "^0.8.3"
+    "vue3-google-map": "^0.8.3",
+    "webpack": "^4.39.3"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.2",
@@ -26,6 +27,8 @@
     "@vue/cli-plugin-unit-jest": "~4.5.13",
     "@vue/cli-service": "~4.5.13",
     "@vue/compiler-sfc": "^3.0.0",
+    "sass": "^1.49.11",
+    "sass-loader": "^10",
     "typescript": "~3.9.3",
     "vue-jest": "^5.0.0-0"
   }

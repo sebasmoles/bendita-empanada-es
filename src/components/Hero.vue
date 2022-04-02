@@ -47,32 +47,3 @@
 		},
 	};
 </script>
-
-<style>
-	.imagen-hero {
-		width: 100%;
-		height: 50vh;
-		object-fit: cover;
-		-webkit-filter: brightness(20%);
-		filter: brightness(60%);
-	}
-	.swiper-pagination-bullet {
-		width: 20px;
-		height: 20px;
-		display: inline-block;
-		border-radius: 50%;
-		background: white;
-		opacity: 0.5;
-	}
-	.swiper-pagination-bullet-active {
-		opacity: 1;
-		background: white;
-	}
-
-	@media only screen and (max-width: 640px) {
-		.swiper-pagination-bullet {
-			width: 16px;
-			height: 16px;
-		}
-	} ;
-</style>

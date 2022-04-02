@@ -1,0 +1,29 @@
+.productos {
+	padding: 4rem 2rem;
+	text-align: center;
+}
+.productos-titulo {
+	margin-bottom: 2rem;
+}
+.productos-contenido {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.productos-imagen {
+	max-width: 30%;
+	margin-bottom: 2rem;
+	object-fit: cover;
+}
+
+/* Media queries and responsive design */
+@media only screen and (max-width: 768px) {
+	.productos-imagen {
+		max-width: 48%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.productos-imagen {
+		max-width: 100%;
+	}
+}

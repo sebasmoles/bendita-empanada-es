@@ -1,0 +1,45 @@
+.empresa {
+	padding: 4rem 2rem;
+	text-align: center;
+}
+.empresa-titulo {
+	margin-bottom: 2rem;
+}
+.empresa-atributos {
+	display: flex;
+}
+.empresa-atributos div:not(:last-child) {
+	margin-right: 4rem;
+}
+.empresa-imagen {
+	max-width: 100%;
+}
+.empresa-texto {
+	text-align: left;
+}
+/* Media queries and responsive design */
+@media only screen and (max-width: 1024px) {
+	.empresa-atributos div:not(:last-child) {
+		margin-right: 2rem;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.empresa-atributos {
+		display: block;
+	}
+	.empresa-atributos div:not(:last-child) {
+		margin-right: 0;
+	}
+	.empresa-atributos div {
+		width: 100%;
+		padding: 0 4rem 2rem 4rem;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.empresa-atributos div {
+		padding: 0;
+		margin-bottom: 3rem;
+	}
+}
