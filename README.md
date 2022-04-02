@@ -6,6 +6,8 @@ Web page for the "Bendita Empanada" coffee shop.
 
 🤟 Project was built in Spanish (commits, variables, etc).
 
+🚀 Visit the [LIVE SITE](https://bendita-empanada.herokuapp.com/)!
+
 ## Project setup
 
 ```bash
