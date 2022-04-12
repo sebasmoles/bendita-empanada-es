@@ -25,6 +25,11 @@ npm run serve
 npm run build
 ```
 
+```bash
+# Run unit tests
+npm run test:unit
+```
+
 ## Version
 
 1.0.0
