@@ -18,12 +18,18 @@
 			</p>
 			<form @submit="onSubmit" class="contacto-formulario">
 				<div class="contacto-formulario-grupo">
-					<input type="text" placeholder="Nombre completo" required />
+					<input
+						type="text"
+						placeholder="Nombre completo"
+						data-testid="input-name"
+						required
+					/>
 				</div>
 				<div class="contacto-formulario-grupo">
 					<input
 						type="email"
 						placeholder="Correo electrónico"
+						data-testid="input-email"
 						required
 					/>
 				</div>
@@ -31,6 +37,7 @@
 					<input
 						type="text"
 						placeholder="Teléfono de contacto"
+						data-testid="input-phone"
 						required
 					/>
 				</div>
@@ -38,6 +45,7 @@
 					<textarea
 						placeholder="¿Cómo podemos ayudarte?"
 						rows="2"
+						data-testid="input-textarea"
 						required
 					/>
 				</div>
@@ -51,7 +59,8 @@
 	export default {
 		name: "Contacto",
 		methods: {
-			onSubmit() {
+			onSubmit(e) {
+				e.preventDefault();
 				alert(
 					"Ya tenemos en nuestro sistemas tus datos, un asesor se comunicará contigo cuanto antes."
 				);

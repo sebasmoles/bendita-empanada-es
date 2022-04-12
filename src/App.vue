@@ -1,9 +1,7 @@
 <template>
 	<Header />
-
 	<Hero />
 	<router-view />
-
 	<Footer />
 </template>
 
