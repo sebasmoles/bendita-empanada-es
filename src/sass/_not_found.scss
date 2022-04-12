@@ -1,0 +1,17 @@
+.not-found {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    min-height: 500px;
+    width: 100%;
+    &-elements {
+        width: 100%;
+    }
+    &-title {
+        font-size: 6rem;
+    }
+    &-msg {
+        color: rgb(144, 144, 144);
+        margin-bottom: 2rem;
+    }
+}
